@@ -1,0 +1,45 @@
+{
+  "name": "shariff-backend-node",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node run.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heiseonline/shariff-backend-node"
+  },
+  "author": {
+    "name": "Alexander Pluhar",
+    "email": "apl@heise.de"
+  },
+  "contributors": [
+    {
+      "name": "Philipp Busse",
+      "email": "pmb@heise.de"
+    }
+  ],
+  "dependencies": {
+    "catbox-memory": "^1.1.1",
+    "good": "^3.1.1",
+    "hapi": "^7.0.0",
+    "promise": "^6.0.1",
+    "request": "^2.45.0"
+  },
+  "keywords": [
+    "heise",
+    "social buttons",
+    "shariff"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "license": "MIT <http://www.opensource.org/licenses/mit-license.php>",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-release": "^0.7.0"
+  }
+}
